@@ -1,6 +1,0 @@
-﻿  //%attributes = {"lang":"en"} comment added and reserved by 4D.
-$window:=Open form window:C675("people")
-
-$form:=dialog_01_form 
-
-DIALOG:C40("people";$form)
