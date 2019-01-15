@@ -1,0 +1,1 @@
+  //%attributes = {"invisible":true,"lang":"en"} comment added and reserved by 4D.If (ds:C1482.People=Null:C1517)		$path:=Get 4D folder:C485(Current resources folder:K5:16)+"People.xml"		$structure:=Document to text:C1236($path;"utf-8";Document unchanged:K24:18)		IMPORT STRUCTURE:C1310($structure)		RESTART 4D:C1292	End if 
